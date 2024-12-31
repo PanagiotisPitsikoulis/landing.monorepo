@@ -9,6 +9,7 @@ const withNextra = nextra({
 
 const nextConfig: NextConfig = {
   /* config options here */
+  distDir: "build",
 };
 
 export default withNextra(nextConfig);
