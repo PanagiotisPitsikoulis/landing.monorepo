@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { nextui } from "@repo/ui/nextui";
+// import { nextui } from "@repo/ui/nextui";
 
 export default {
   content: [
@@ -18,5 +18,7 @@ export default {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [
+    // nextui()
+  ],
 } satisfies Config;
