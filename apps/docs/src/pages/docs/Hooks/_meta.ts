@@ -1,4 +1,4 @@
-export default {
+const meta = {
   emitter: {
     title: "Emitter",
   },
@@ -24,3 +24,5 @@ export default {
     title: "useScrollPosition",
   },
 };
+
+export default meta;

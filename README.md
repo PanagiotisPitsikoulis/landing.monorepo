@@ -60,3 +60,5 @@ Visit [docs.landing-ui.com](https://docs.landing-ui.com) to view the documentati
 ## License
 
 MIT © [Landing UI](https://landing-ui.com)
+
+Tailwindcss Typescript Landing-page Design-system Components Ui-library Shadcn Nextjs Framer-motion Radix-**ui**

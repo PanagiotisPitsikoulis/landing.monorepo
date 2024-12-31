@@ -1,4 +1,4 @@
-export default {
+const meta = {
   docs: {
     title: "Documentation",
     type: "page",
@@ -17,3 +17,5 @@ export default {
     newWindow: true,
   },
 };
+
+export default meta;

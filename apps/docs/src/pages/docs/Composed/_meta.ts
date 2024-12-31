@@ -1,4 +1,4 @@
-export default {
+const meta = {
   animated_image_grid: {
     title: "Animated Image Grid",
   },
@@ -9,3 +9,5 @@ export default {
     title: "Top Banner",
   },
 };
+
+export default meta;

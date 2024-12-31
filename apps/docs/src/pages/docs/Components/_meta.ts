@@ -1,4 +1,4 @@
-export default {
+const meta = {
   animated_wrapper: {
     title: "Animated Wrapper",
   },
@@ -51,3 +51,5 @@ export default {
     title: "Virtual Anchor",
   },
 };
+
+export default meta;
