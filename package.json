@@ -10,7 +10,8 @@
     "dev:ui": "pnpm --filter ui dev",
     "build:docs": "pnpm --filter docs build",
     "build:ui": "pnpm --filter ui build",
-    "publish:ui": "cd packages/ui && pnpm publish"
+    "publish:ui": "cd packages/ui && pnpm publish",
+    "start:docs": "pnpm --filter docs start"
   },
   "devDependencies": {
     "prettier": "^3.4.2",
