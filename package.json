@@ -1,14 +1,19 @@
 {
-  "name": "my-turborepo",
+  "name": "landing.monorepo",
   "private": true,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dev:docs": "pnpm --filter docs dev",
+    "dev:ui": "pnpm --filter ui dev",
+    "build:docs": "pnpm --filter docs build",
+    "build:ui": "pnpm --filter ui build",
+    "publish:ui": "cd packages/ui && pnpm publish"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "prettier": "^3.4.2",
     "turbo": "^2.3.3",
     "typescript": "5.5.4"
   },
