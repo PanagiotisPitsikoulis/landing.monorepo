@@ -13,14 +13,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@ui/*": ["../../packages/landing.ui/src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": [
