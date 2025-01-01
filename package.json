@@ -7,10 +7,9 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "dev:docs": "pnpm --filter docs dev",
-    "dev:ui": "pnpm --filter ui dev",
     "build:docs": "turbo build --filter docs",
-    "build:ui": "pnpm --filter ui build",
-    "publish:ui": "cd packages/ui && pnpm publish",
+    "build:ui": "pnpm --filter landing.ui build",
+    "publish:ui": "cd packages/landing.ui && pnpm publish",
     "start:docs": "pnpm --filter docs start"
   },
   "devDependencies": {
