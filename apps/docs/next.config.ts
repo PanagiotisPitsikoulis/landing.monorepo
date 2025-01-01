@@ -9,6 +9,7 @@ const withNextra = nextra({
 
 const nextConfig: NextConfig = {
   /* config options here */
+  transpilePackages: ["@repo/ui"],
 };
 
 export default withNextra(nextConfig);
