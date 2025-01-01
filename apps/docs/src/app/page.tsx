@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { ThemeSwitch } from "ui.landing";
+import { Button } from "ui.landing";
 
 export default function Home() {
   return (
     <main>
-      <ThemeSwitch />
+      <Button>Click me</Button>
       <Link href='/docs/get_started'>Go to docs</Link>
     </main>
   );
