@@ -7,8 +7,6 @@ const withNextra = nextra({
   themeConfig: "./theme.config.tsx",
 });
 
-const nextConfig: NextConfig = {
-  distDir: "build",
-};
+const nextConfig: NextConfig = {};
 
 export default withNextra(nextConfig);
